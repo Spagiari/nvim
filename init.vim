@@ -73,6 +73,11 @@ noremap <C-d> :Files<cr>
 noremap <C-f> :Ag<space>
 noremap <C-b> :NERDTreeToggle<CR>
 
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-s>"
+let g:UltiSnipsJumpBackwardTrigger="<c-a>"
+
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetsDir='~/.config/nvim/UltiSnips'
@@ -140,3 +145,6 @@ let g:NERDDefaultAlign = 'left'
 
 " Prettier
 let g:prettier#config#tab_width = 4
+
+" Isort
+let g:vim_isort_python_version = 'python3'
