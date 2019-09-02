@@ -49,11 +49,14 @@ Plug 'tell-k/vim-autopep8'
 " Git/mercurial/others diff icons on the side of the file lines
 Plug 'mhinz/vim-signify'
 Plug 'iCyMind/NeoSolarized'
+Plug 'dart-lang/dart-vim-plugin'
+Plug 'thosakwe/vim-flutter'
 call plug#end()
 
 " colors for gvim
 " colorscheme wombat
 " colorscheme gruvbox
+set termguicolors
 colorscheme NeoSolarized
 set background=dark
 let g:airline_theme='onedark'
